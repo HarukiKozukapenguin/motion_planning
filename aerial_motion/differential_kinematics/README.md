@@ -9,7 +9,7 @@
 ### Hydrus (SE2 model)
 1. start ``` $ roscore```
 2.  create the environment obstacle. following command will create a simple cylinder in the environment.
-```$ rosrun differential_kinematics simple_collision.py _position_x:=0.3 _position_y:=0.3 _scale_x:=0.1 _scale_y:=0.1 _scale_z:=0.3```
+```$ rosrun differential_kinematics simple_collision.py _obstacle_world_file:=.path_to_real_tree.csv```
 
 3. launch the IK solver
 ``` $ roslaunch  differential_kinematics  hydrus_end_effector_ik.launch ```
